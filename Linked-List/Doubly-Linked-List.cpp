@@ -14,6 +14,7 @@ class Node{
         this -> next = NULL;
     }
 
+    //Destructor
     ~Node(){
         int value = this -> data;
         if(next != NULL){

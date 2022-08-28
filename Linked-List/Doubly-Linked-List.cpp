@@ -17,7 +17,7 @@ class Node{
     //Destructor
     ~Node(){
         int value = this -> data;
-        if(next != NULL){
+        if(this -> next != NULL){
             delete next;
             next = NULL;
         }

@@ -69,6 +69,8 @@ class Queue{
         }
 };
 
+//All operations in queue are O(1) time complexity.
+
 int main(){
 
     Queue que(5);

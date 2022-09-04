@@ -1,4 +1,5 @@
 //Remember the array needs to be in sorted order for applying binary search
+// Time Complexity: O(logn)
 
 #include<iostream>
 using namespace std;

@@ -1,4 +1,5 @@
 //Important application of binary Search asked in top companies
+// Remember whenever you can figure out that a sorted part can be negleted with a certain value (actually mid) we can think of applying binary search
 
 //Link - https://www.codingninjas.com/codestudio/problems/allocate-books_1090540
 //Explanation - https://www.youtube.com/watch?v=YTTdLgyqOLY&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=15&t=3s

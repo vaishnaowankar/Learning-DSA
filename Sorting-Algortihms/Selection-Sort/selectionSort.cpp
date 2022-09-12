@@ -7,6 +7,15 @@ In this algortihm we tend to bring the minimum of the numbers in array to front 
 
 */
 
+/*
+Time complexity - O(n^2) -> both best and worst case
+Space complexity - O(1)
+*/
+
+/*
+Use Case :- think of applying when your array or vector list is small in size
+*/
+
 
 
 #include<bits/stdc++.h>

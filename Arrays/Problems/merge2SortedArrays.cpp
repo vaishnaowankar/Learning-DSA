@@ -1,10 +1,17 @@
+//Using two pointer approach
+
+
+
+
 #include<iostream>
 #include<vector>
 using namespace std;
 
 
 void merge(int arr1[] , int n , int arr2[] , int m , int arr3[]){
-    int i = 0 , j = 0 , k = 0;
+    int i = 0 , j = 0 , k = 0;   //i will move for first array and j for second , k will we used to add elements to third array.
+
+    //loop till length of min array
     while(i<n && j<m){
         if(arr1[i] < arr2[j]){
             arr3[k] = arr1[i];
@@ -17,11 +24,15 @@ void merge(int arr1[] , int n , int arr2[] , int m , int arr3[]){
             j++;
         }
     } 
+
+    //if first array has more elements than second
     while(i<n){
         arr3[k] = arr1[i];
         k++;
         i++;
     }
+
+    //if second element has more elements than first
     while(j<m){
         arr3[k] = arr2[j];
         k++;

@@ -8,7 +8,7 @@ using namespace std;
 vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
 {
     //create a vector to store our ans
-    vector <int> ans;
+    vector<int> ans;
     
     //the logic is for odd columns we need to traverse bottom to top and vice versa
     //traversing column wise
